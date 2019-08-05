@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../itdr_jy5_rlg/rlg_maven/rlg_maven.iml" filepath="$PROJECT_DIR$/../itdr_jy5_rlg/rlg_maven/rlg_maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../itdr_jy5_rlg/rlgdemo/rlgdemo.iml" filepath="$PROJECT_DIR$/../itdr_jy5_rlg/rlgdemo/rlgdemo.iml" />
+    </modules>
+  </component>
+</project>

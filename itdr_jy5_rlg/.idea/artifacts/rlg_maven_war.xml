@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="rlg_maven:war">
+    <output-path>$PROJECT_DIR$/../itdr_jy5_rlg/rlg_maven/target</output-path>
+    <root id="archive" name="rlg_maven.war">
+      <element id="artifact" artifact-name="rlg_maven:war exploded" />
+    </root>
+  </artifact>
+</component>
