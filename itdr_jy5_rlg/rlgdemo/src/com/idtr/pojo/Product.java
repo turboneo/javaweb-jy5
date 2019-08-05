@@ -2,13 +2,13 @@ package com.idtr.pojo;
 
 import java.math.BigDecimal;
 
-public class Products {
+public class Product {
     private Integer id;
-    private Integer categoryId;
+    private String categoryId;
     private String name;
     private String subtitle;
-    private Integer status;
-    private BigDecimal price;
+    private String status;
+    private String price;
 
     public Integer getId() {
         return id;
@@ -18,11 +18,11 @@ public class Products {
         this.id = id;
     }
 
-    public Integer getCategoryId() {
+    public String getCategoryId() {
         return categoryId;
     }
 
-    public void setCategoryId(Integer categoryId) {
+    public void setCategoryId(String categoryId) {
         this.categoryId = categoryId;
     }
 
@@ -42,31 +42,31 @@ public class Products {
         this.subtitle = subtitle;
     }
 
-    public Integer getStatus() {
+    public String getStatus() {
         return status;
     }
 
-    public void setStatus(Integer status) {
+    public void setStatus(String status) {
         this.status = status;
     }
 
-    public BigDecimal getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public void setPrice(BigDecimal price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 
     @Override
     public String toString() {
-        return "Products{" +
+        return "Product{" +
                 "id=" + id +
-                ", categoryId=" + categoryId +
+                ", categoryId='" + categoryId + '\'' +
                 ", name='" + name + '\'' +
                 ", subtitle='" + subtitle + '\'' +
-                ", status=" + status +
-                ", price=" + price +
+                ", status='" + status + '\'' +
+                ", price='" + price + '\'' +
                 '}';
     }
 }

@@ -29,6 +29,27 @@ public class ResponseCode<T> {
         this.mag = mag;
     }
 
+    public static <T> ResponseCode successRS (Integer status,T data){
+        ResponseCode rs=new ResponseCode();
+        rs.setStatus(status);
+        rs.setData(data);
+        return rs;
+    }
+    public static <T> ResponseCode successRS (T data){
+        ResponseCode rs=new ResponseCode();
+        rs.setStatus(0);
+        rs.setData(data);
+        return rs;
+    }
+
+
+    public static <T> ResponseCode defeatedRS (Integer status,String mag){
+        ResponseCode rs=new ResponseCode();
+        rs.setStatus(status);
+        rs.setData(mag);
+        return rs;
+    }
+
     @Override
     public String toString() {
         return "ResponseCode{" +

@@ -38,8 +38,8 @@ public class JurisDictionFilter implements Filter {
         Users user = (Users) session.getAttribute("user");
 
         if (user == null) {
-            rs.setStatus(3);
-            rs.setMag("请登录后此操作！");
+            rs.setStatus(10);
+            rs.setMag("用户未登录，请登录");
             resp.getWriter().write(rs.toString());
             return ;
         }

@@ -11,6 +11,9 @@ public class Const {
     public  static final Integer USER_DISABLE_CODE=104;
     public  static final String USER_DISABLE_MSG="用户已禁用！";
     //商品相关状态
+    public static final Integer PRODUCT_PARAMETER_CODE=101;
+    public static final String  PRODUCT_PARAMETER_MSG="参数为空";
+
     //用户相关状态
     //用户相关状态
 }

@@ -2,27 +2,48 @@ package com.idtr.service;
 
 import com.idtr.common.ResponseCode;
 import com.idtr.dao.ProductDao;
-import com.idtr.pojo.Products;
+import com.idtr.pojo.Product;
 
 import java.util.List;
 
 public class ProductService {
     ProductDao pd=new ProductDao();
-    public ResponseCode selectAll(String pageSize, String pageNum) {
-            //非空判断
-            if (pageSize==null||pageSize.equals("")){
-                pageSize="10";
-            }
-            if (pageNum==null||pageNum.equals("")){
-                pageNum="1";
-            }
 
-            List<Products> li=pd.selectAll(pageNum,pageSize);
-            //如果集合为空呢？
-            ResponseCode rs=new ResponseCode();
-            rs.setStatus(0);
-            rs.setData(li);
+    public ResponseCode getAll(String pageSize,String pageNum) {
+        ResponseCode rs=null;
+        List<Product> li= pd.selectAll(pageNum,pageSize);
+        rs=ResponseCode.successRS(li);
+        return rs;
+    }
+
+
+    public ResponseCode serchOne(String pageSize,String pageNum,String productId,String productName) {
+        ResponseCode rs=null;
+        Product p= pd.selectOne(pageNum,pageSize,productId,productName);
+        rs=ResponseCode.successRS(p);
+        return rs;
+    }
+
+    public ResponseCode showdetail(String productId) {
+        ResponseCode rs=null;
+        Product p=pd.showdetail(productId);
+        rs=ResponseCode.successRS(p);
+        return rs;
+
+    }
+
+    public ResponseCode setStatus(String status, String productId) {
+        Product p=pd.selectOne(productId);
+        p.getCategoryId();
+        int a = pd.setStatus(status,productId);
+        ResponseCode rs=null;
+        if (a==1){
+            rs=ResponseCode.successRS("修改产品状态成功");
             return rs;
+        }else if (a==0){
+            rs=ResponseCode.successRS("修改产品状态失败");
+        }
 
+        return rs;
     }
 }

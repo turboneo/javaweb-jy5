@@ -1,8 +1,6 @@
 package com.idtr.controller;
 
 import com.idtr.common.ResponseCode;
-import com.idtr.pojo.Products;
-import com.idtr.pojo.Users;
 import com.idtr.service.ProductService;
 import com.idtr.utils.PathUtil;
 
@@ -11,7 +9,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 @WebServlet(name = "ProductController", value = "/manage/product/*")
@@ -35,45 +32,67 @@ public class ProductController extends HttpServlet {
 
         switch (path) {
             case "list":
-                rs = listDo(request);
+                rs = getAll(request);
                 break;
-//            case "login":
-//                rs = loginDo(request);
-//                break;
-//            case "":
-//                rs = disableuserDo(request);
-//                break;
+            case "search":
+                rs = serchOne(request);
+            case "detail":
+                rs = showdetail(request);
+            case "set_sale_status":
+                rs = setStatus(request);
 
         }
 
         //返回响应数据
         response.getWriter().write(rs.toString());
     }
+    //产品上下架，修改产品状态成功或者失败
+    private ResponseCode setStatus(HttpServletRequest request) {
+        //获取参数
+        String productId=request.getParameter("productId");
+        String status=request.getParameter("status");
+        //调用业务层
+        ResponseCode rs = ps.setStatus(status,productId);
+        return rs;
+    }
+
+    //查看产品详情
+    private ResponseCode showdetail(HttpServletRequest request) {
+        //获取参数
+        String productId = request.getParameter("productId");
+        ResponseCode rs = null;
+        //调用业务层
+        rs = ps.showdetail(productId);
+        return rs;
+    }
+
+    //通过商品ID或者name搜索某商品
+    private ResponseCode serchOne(HttpServletRequest request) {
+        //获取参数
+        String productName = request.getParameter("productName");
+        String productId = request.getParameter("productId");
+        String pageSize = request.getParameter("pageSize");
+        String pageNum = request.getParameter("pageNum");
+        ResponseCode rs = null;
+
+        //调用业务层
+        rs = ps.serchOne(pageSize, pageNum, productId, productName);
+        return rs;
+
+    }
+
 
     //获取所有商品列表的请求
-    private ResponseCode listDo(HttpServletRequest request) {
-        ResponseCode rs = new ResponseCode();
-
-        HttpSession session = request.getSession();
-        Users user = (Users) session.getAttribute("user");
-
-        if (user == null) {
-            rs.setStatus(3);
-            rs.setMag("请登录后此操作！");
-            return rs;
-        }
-        if (user.getType() != 1) {
-            rs.setStatus(3);
-            rs.setMag("没有操作权限！");
-            return rs;
-        }
-
+    private ResponseCode getAll(HttpServletRequest request) {
         //获取参数
         String pageSize = request.getParameter("pageSize");
         String pageNum = request.getParameter("pageNum");
+        ResponseCode rs = null;
 
-        rs = ps.selectAll(pageSize, pageNum);
+        //调用业务层
+        rs = ps.getAll(pageSize, pageNum);
         return rs;
+
     }
 
 }

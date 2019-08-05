@@ -20,9 +20,8 @@ public class UserService {
 
         List<Users>li=ud.selectAll(pageNum,pageSize);
         //如果集合为空呢？
-        ResponseCode rs=new ResponseCode();
-        rs.setStatus(0);
-        rs.setData(li);
+        ResponseCode rs=ResponseCode.successRS(li);
+
         return rs;
     }
 
