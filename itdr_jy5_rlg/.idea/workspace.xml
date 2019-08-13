@@ -29,76 +29,56 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="itdr_jy5_rlg" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="homedemo.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rlgdemo/web/homedemo.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="560" column="24" lean-forward="true" selection-start-line="560" selection-start-column="24" selection-end-line="560" selection-end-column="24" />
+              <folding>
+                <element signature="e#12362#13348#0#HTML" />
+                <element signature="e#13402#14397#0#HTML" />
+                <element signature="e#14451#16072#0#HTML" />
+                <element signature="e#16134#17499#0#HTML" />
+                <element signature="e#17563#18938#0#HTML" />
+                <element signature="e#18996#20316#0#HTML" />
+                <element signature="e#20374#22501#0#HTML" />
+                <element signature="e#21374#22403#0#HTML" />
+                <element signature="e#22555#23910#0#HTML" />
+                <element signature="e#23974#25411#0#HTML" />
+                <element signature="e#27348#29179#0#HTML" />
+                <element signature="e#29250#31200#0#HTML" />
+                <element signature="e#31237#33222#0#HTML" />
+                <element signature="e#31363#33186#0#HTML" />
+                <element signature="e#33290#33792#0#HTML" />
+                <element signature="n#script#4;n#html#0;n#!!top" />
+                <element signature="n#script#5;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="371">
+              <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#doPost#0;class#ProductController#0" />
+                <element signature="method#showdetail#0;class#ProductController#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/service/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/ProductDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding>
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#767#768#0" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
-                <element signature="e#869#870#0" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
-                <element signature="e#949#950#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="89">
+              <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -108,9 +88,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\javaweb-jy5\itdr_jy5_rlg\rlgdemo</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -118,40 +109,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rlg_maven/pom.xml" />
-        <option value="$PROJECT_DIR$/rlg_maven/src/main/java/demo.java" />
-        <option value="$PROJECT_DIR$/rlg_maven/pom.xml" />
-        <option value="$PROJECT_DIR$/rlgdemo/test/com/itdr/testdemo/DemoTest1.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/utils/PoolUtil.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Users.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Users.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/utils/PathUtil.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/utils/PropertiesGetUTil.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/resources/const.properties" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Products.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/utils/MessyCodeFilter.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/service/UserService.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/service/UserService.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/service/UserService.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/resources/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/ListController.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/service/ListService.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/ListDao.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/List.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/DDServlet.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/sl.jsp" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/index.jsp" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/WEB-INF/userlist.jsp" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/CategoryServlet.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Category.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/CategoryDao.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/WEB-INF/lib/homedemo.jsp" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/WEB-INF/homedemo.jsp" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/WEB-INF/home.jsp" />
         <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Product.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/utils/JurisDictionFilter.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/css/login.css" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/js/homedemo.js" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/login.jsp" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/cehsi2.jsp" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/uselist.jsp" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/productlist.jsp" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/ceshi2.jsp" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/css/home.css" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/CategoryController.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Order.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Users.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java" />
         <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/common/Const.java" />
         <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/common/ResponseCode.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/service/UserService.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/service/UserService.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/service/UserService.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/com/idtr/common/ResponseCode.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/src/tt.java" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/Nine.jsp" />
+        <option value="$PROJECT_DIR$/rlgdemo/web/homedemo.jsp" />
       </list>
     </option>
   </component>
@@ -175,14 +183,25 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rlg_maven Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-114" />
-    <option name="y" value="8" />
-    <option name="width" value="1265" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="390" />
+    <option name="y" value="25" />
+    <option name="width" value="1455" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -190,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,23 +245,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="idtr" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itdr_jy5_rlg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rlgdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="idtr" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itdr_jy5_rlg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rlgdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="idtr" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itdr_jy5_rlg" type="b2602c69:ProjectViewProjectNode" />
@@ -264,21 +266,26 @@
             <path>
               <item name="itdr_jy5_rlg" type="b2602c69:ProjectViewProjectNode" />
               <item name="rlgdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="idtr" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itdr_jy5_rlg" type="b2602c69:ProjectViewProjectNode" />
               <item name="rlgdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itdr_jy5_rlg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rlgdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -286,10 +293,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/jason/jackson-databind-2.9.8.jar!/" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -300,10 +308,18 @@
       <recent name="com.idtr.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javaweb-jy5\itdr_jy5_rlg\rlgdemo\web\css" />
+      <recent name="E:\javaweb-jy5\itdr_jy5_rlg\rlgdemo\web\js" />
+      <recent name="E:\javaweb-jy5\itdr_jy5_rlg\rlgdemo\web\imgs" />
+      <recent name="E:\javaweb-jy5\itdr_jy5_rlg\rlgdemo\web\WEB-INF\lib" />
       <recent name="E:\itdr_jy5_rlg\rlgdemo\web\WEB-INF\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\itdr_jy5_rlg\rlgdemo\resources" />
+      <recent name="E:\javaweb-jy5\itdr_jy5_rlg\rlgdemo\web\imgs" />
+      <recent name="E:\javaweb-jy5\itdr_jy5_rlg\rlgdemo\web" />
+      <recent name="E:\javaweb-jy5\itdr_jy5_rlg\rlgdemo\src\com\idtr\controller" />
+      <recent name="E:\javaweb-jy5\itdr_jy5_rlg\rlgdemo\web\WEB-INF" />
+      <recent name="E:\javaweb-jy5\itdr_jy5_rlg\rlgdemo\web\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -331,6 +347,11 @@
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="tt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tt" />
+      <module name="rlgdemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="DemoTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -418,6 +439,7 @@
       <listeners />
     </configuration>
     <configuration name="Tomcat 8.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.52" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="D:\Program Files\Java\jdk1.8.0_162\jre">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -490,13 +512,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 8.0.52" />
       <item itemvalue="Application.DemoTest1" />
+      <item itemvalue="Tomcat Server.Tomcat 8.0.52" />
       <item itemvalue="JUnit.DemoTest1.test1" />
       <item itemvalue="JUnit.DemoTest1" />
+      <item itemvalue="Application.tt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tt" />
         <item itemvalue="JUnit.DemoTest1" />
         <item itemvalue="JUnit.DemoTest1.test1" />
       </list>
@@ -531,7 +555,18 @@
       <workItem from="1564731000580" duration="9294000" />
       <workItem from="1564744997186" duration="6172000" />
       <workItem from="1564989746192" duration="37000" />
-      <workItem from="1564994355725" duration="15517000" />
+      <workItem from="1564994355725" duration="49084000" />
+      <workItem from="1565091616852" duration="13395000" />
+      <workItem from="1565167167359" duration="29548000" />
+      <workItem from="1565250422595" duration="32295000" />
+      <workItem from="1565318606002" duration="23420000" />
+      <workItem from="1565392463260" duration="15655000" />
+      <workItem from="1565475757492" duration="25818000" />
+      <workItem from="1565519674992" duration="18235000" />
+      <workItem from="1565567336725" duration="27285000" />
+      <workItem from="1565601925646" duration="11700000" />
+      <workItem from="1565672516155" duration="1255000" />
+      <workItem from="1565695106866" duration="9458000" />
     </task>
     <servers />
   </component>
@@ -553,16 +588,16 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73428000" />
+    <option name="totallyTimeSpent" value="315059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.8433382" />
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32894737" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
@@ -570,59 +605,59 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3704246" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4216691" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.14787701" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.14494875" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.329429" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.045387994" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84061134" visible="true" weight="0.1930295" />
-      <window_info id="Web" order="6" sideWeight="0.15938865" side_tool="true" weight="0.14008042" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.12005857" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49865952" weight="0.329429" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8197932" visible="true" weight="0.16353887" />
+      <window_info id="Web" order="6" sideWeight="0.18020679" side_tool="true" weight="0.32908848" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32796487" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32894737" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.20204978" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49865952" weight="0.329429" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32608697" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.8433382" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.14494875" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84061134" visible="true" weight="0.14008042" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.329429" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32796487" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8197932" visible="true" weight="0.16353887" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="6" sideWeight="0.15938865" side_tool="true" visible="true" weight="0.14008042" />
+      <window_info id="Web" order="6" sideWeight="0.18020679" side_tool="true" weight="0.32908848" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39824304" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4216691" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,79 +670,41 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/ProductController.java</url>
-          <line>49</line>
-          <properties class="com.idtr.controller.ProductController" method="setStatus">
+          <url>file://$PROJECT_DIR$/rlgdemo/src/com/idtr/service/CategoryService.java</url>
+          <line>33</line>
+          <properties class="com.idtr.service.CategoryService" method="setCategory">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/rlgdemo/src/com/idtr/service/ProductService.java</url>
-          <line>34</line>
-          <properties class="com.idtr.service.ProductService" method="setStatus">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="23" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/OrderController.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/ProductDao.java</url>
-          <line>77</line>
-          <properties class="com.idtr.dao.ProductDao" method="setStatus">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="24" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/OrderController.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="107" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/utils/PathUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="147">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java">
+    <entry file="file://$PROJECT_DIR$/rlgdemo/resources/c3p0-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#doPost#0;class#UsersController#0" />
-            <element signature="method#doGet#0;class#UsersController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2226">
-          <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#selectAll#0;class#UserService#0" />
-            <element signature="method#selectOne#0;class#UserService#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/common/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="50" />
+        <state relative-caret-position="189">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -718,239 +715,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/utils/PropertiesGetUTil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="59" selection-start-line="59" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/common/ResponseCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#doPost#0;class#UsersController#0" />
-            <element signature="method#doGet#0;class#UsersController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#selectAll#0;class#UserService#0" />
-            <element signature="method#selectOne#0;class#UserService#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="59" selection-start-line="59" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/common/ResponseCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#doPost#0;class#UsersController#0" />
-            <element signature="method#doGet#0;class#UsersController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#selectAll#0;class#UserService#0" />
-            <element signature="method#selectOne#0;class#UserService#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="59" selection-start-line="59" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/common/ResponseCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/utils/PathUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlg_maven/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="17" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlg_maven/src/main/java/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlg_maven/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlg_maven/src/main/java/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlg_maven/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlg_maven/src/main/java/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlg_maven/src/main/java/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlg_maven/rlg_maven.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlg_maven/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/css/base.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/rlg_maven/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/test/com/itdr/testdemo/DemoTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Apache Software Foundation/Tomcat 8.0/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/utils/MessyCodeFilter.java" />
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/utils/PathUtil.java">
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/ss.java" />
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/sl.jsp" />
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/DDServlet.java" />
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/index.jsp" />
+    <entry file="jar://D:/Program Files/Apache Software Foundation/Tomcat 8.0/lib/servlet-api.jar!/javax/servlet/FilterChain.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -961,148 +736,293 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/utils/PoolUtil.java">
+    <entry file="jar://D:/Program Files/Apache Software Foundation/Tomcat 8.0/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="49">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/resources/c3p0-config.xml">
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/utils/PoolUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/CategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
           <folding>
-            <element signature="e#247#252#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/js/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/imgs/bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/css/normalize.min.css" />
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/js/homedemo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/cehsi2.jsp" />
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/productlist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="153" column="35" selection-start-line="153" selection-start-column="35" selection-end-line="153" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/WEB-INF/userlist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/uselist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="173" column="32" lean-forward="true" selection-start-line="173" selection-start-column="32" selection-end-line="173" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="51" column="28" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/utils/JurisDictionFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#selectOne#0;class#UserService#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/resources/const.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="315">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/common/Const.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="315">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+        <state relative-caret-position="84">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#doPost#0;class#OrderController#0" />
+            <element signature="method#detailOne#0;class#OrderController#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/UsersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="94" column="29" lean-forward="true" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#doPost#0;class#UsersController#0" />
-            <element signature="method#doGet#0;class#UsersController#0" />
-          </folding>
+        <state relative-caret-position="313">
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/common/ResponseCode.java">
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/pojo/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="189">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/common/ResponseCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/ceshi2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/ceshi.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/WEB-INF/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/src/tt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/Nine.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
           <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="371">
+          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#doPost#0;class#ProductController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#showdetail#0;class#ProductController#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rlgdemo/src/com/idtr/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        <state relative-caret-position="89">
+          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlgdemo/web/homedemo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="560" column="24" lean-forward="true" selection-start-line="560" selection-start-column="24" selection-end-line="560" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#12362#13348#0#HTML" />
+            <element signature="e#13402#14397#0#HTML" />
+            <element signature="e#14451#16072#0#HTML" />
+            <element signature="e#16134#17499#0#HTML" />
+            <element signature="e#17563#18938#0#HTML" />
+            <element signature="e#18996#20316#0#HTML" />
+            <element signature="e#20374#22501#0#HTML" />
+            <element signature="e#21374#22403#0#HTML" />
+            <element signature="e#22555#23910#0#HTML" />
+            <element signature="e#23974#25411#0#HTML" />
+            <element signature="e#27348#29179#0#HTML" />
+            <element signature="e#29250#31200#0#HTML" />
+            <element signature="e#31237#33222#0#HTML" />
+            <element signature="e#31363#33186#0#HTML" />
+            <element signature="e#33290#33792#0#HTML" />
+            <element signature="n#script#4;n#html#0;n#!!top" />
+            <element signature="n#script#5;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -1161,7 +1081,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|rlgdemo</last-edited>
+          <last-edited>rlgdemo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

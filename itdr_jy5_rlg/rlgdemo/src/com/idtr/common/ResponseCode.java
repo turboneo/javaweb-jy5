@@ -42,20 +42,43 @@ public class ResponseCode<T> {
         return rs;
     }
 
+    public static <T> ResponseCode successRS (Integer status,T data,String mag){
+        ResponseCode rs=new ResponseCode();
+        rs.setStatus(status);
+        rs.setData(data);
+        rs.setMag(mag);
+        return rs;
+    }
+    public static <T> ResponseCode successRS (Integer status,String mag){
+        ResponseCode rs=new ResponseCode();
+        rs.setStatus(status);
+        rs.setMag(mag);
+        return rs;
+    }
+
 
     public static <T> ResponseCode defeatedRS (Integer status,String mag){
         ResponseCode rs=new ResponseCode();
         rs.setStatus(status);
-        rs.setData(mag);
+        rs.setMag(mag);
         return rs;
     }
 
+    public static <T> ResponseCode defeatedRS (Integer status,String data,String mag){
+        ResponseCode rs=new ResponseCode();
+        rs.setStatus(status);
+        rs.setData(data);
+        rs.setMag(mag);
+        return rs;
+    }
+
+
     @Override
     public String toString() {
-        return "ResponseCode{" +
-                "status=" + status +
-                ", data=" + data +
-                ", mag='" + mag + '\'' +
+        return "{" +
+                "status:" + status +
+                ", data:" + data +
+                ", mag:'" + mag + '\'' +
                 '}';
     }
 }

@@ -2,6 +2,7 @@ package com.idtr.controller;
 
 import com.idtr.common.ResponseCode;
 import com.idtr.service.ProductService;
+import com.idtr.utils.JsonUtils;
 import com.idtr.utils.PathUtil;
 
 import javax.servlet.ServletException;
@@ -36,16 +37,40 @@ public class ProductController extends HttpServlet {
                 break;
             case "search":
                 rs = serchOne(request);
+                break;
             case "detail":
                 rs = showdetail(request);
+                break;
             case "set_sale_status":
                 rs = setStatus(request);
+                break;
+            case"save":
+                rs=save(request);
+                break;
+            case"find":
+                rs=findByText(request);
+                break;
 
         }
 
         //返回响应数据
-        response.getWriter().write(rs.toString());
+        response.setContentType("text/json;charset=utf-8");
+        response.getWriter().println(JsonUtils.obj2String(rs));
     }
+    //新增或更新产品
+    private ResponseCode save(HttpServletRequest request) {
+        //获取参数
+        String categoryId = request.getParameter("categoryId");
+        String name = request.getParameter("name");
+        String subtitle = request.getParameter("subtitle");
+        String price = request.getParameter("price");
+        String status = request.getParameter("status");
+
+        //调用业务层
+        ResponseCode rs = ps.save(categoryId,name,subtitle,price,status);
+        return rs;
+    }
+
     //产品上下架，修改产品状态成功或者失败
     private ResponseCode setStatus(HttpServletRequest request) {
         //获取参数
@@ -69,14 +94,13 @@ public class ProductController extends HttpServlet {
     //通过商品ID或者name搜索某商品
     private ResponseCode serchOne(HttpServletRequest request) {
         //获取参数
-        String productName = request.getParameter("productName");
         String productId = request.getParameter("productId");
-        String pageSize = request.getParameter("pageSize");
-        String pageNum = request.getParameter("pageNum");
+//        String pageSize = request.getParameter("pageSize");
+//        String pageNum = request.getParameter("pageNum");
         ResponseCode rs = null;
 
         //调用业务层
-        rs = ps.serchOne(pageSize, pageNum, productId, productName);
+        rs = ps.serchOne(productId);
         return rs;
 
     }
@@ -91,6 +115,19 @@ public class ProductController extends HttpServlet {
 
         //调用业务层
         rs = ps.getAll(pageSize, pageNum);
+        return rs;
+
+    }
+
+    //根据内容模糊查询
+    private ResponseCode findByText(HttpServletRequest request) {
+        //获取参数
+        String keyWord = request.getParameter("key");
+
+        ResponseCode rs = null;
+
+        //调用业务层
+        rs = ps.findByText(keyWord);
         return rs;
 
     }

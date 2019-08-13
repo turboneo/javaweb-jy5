@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#wk {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-image: url("../imgs/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    transition:2s all;
+
+}
+
+#continue {
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#con-form {
+
+    height: 200px;
+    width: 100%;
+}
+
+#con-form input {
+    margin-top: 50px;
+}
+
+.cf-f {
+    height: 35px;
+    border-radius: 12px;
+    border-width: 1px;
+    width: 60%;
+    outline: none;
+    opacity: 1;
+}
+
+#cf-s {
+    width: 50%;
+    height: 35px;
+    opacity: 80%;
+    background-color: transparent;
+    color: white;
+    border-radius: 12px;
+    margin: 10px;
+    font-size: 20px;
+    outline: none;
+    border: 0.5px solid;
+}
+
+#cf-s:hover{
+    border: none;
+    background-color: #428BCA;
+}
+#nrhz{
+    color: red;
+    font-size: 12px;
+}

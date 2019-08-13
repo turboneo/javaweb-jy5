@@ -53,12 +53,12 @@ public class UserDao {
     }
 
     //根据ID禁用用户
-    public int updateByUid(Integer uid) {
+    public int disableByUid(Integer uid) {
 
         QueryRunner qr = new QueryRunner(PoolUtil.getCom());
-        String sql = "update users set stats where id =?";
+        String sql = "update users set stats=1 where id =?";
         Users u = null;
-        int row=0;
+        int row = 0;
         try {
             row = qr.update(sql, uid);
         } catch (SQLException e) {
@@ -67,4 +67,33 @@ public class UserDao {
         return row;
     }
 
+    //根据ID启用用户
+    public int ableByUid(Integer uid) {
+
+        QueryRunner qr = new QueryRunner(PoolUtil.getCom());
+        String sql = "update users set stats=0 where id =?";
+        Users u = null;
+        int row = 0;
+        try {
+            row = qr.update(sql, uid);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return row;
+    }
+    //根据用户名模糊查询
+    public List<Users> findByText(String keyWord) {
+        QueryRunner qr = new QueryRunner(PoolUtil.getCom());
+        String sql = "select * from users where uname like ? ";
+        String key = "%" + keyWord + "%";
+        List<Users> li = null;
+        try {
+            li = qr.query(sql, new BeanListHandler<Users>(Users.class), key);
+            System.out.println(li);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return li;
+
+    }
 }
